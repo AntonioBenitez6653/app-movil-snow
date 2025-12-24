@@ -559,7 +559,7 @@ body.menu-open {
             }
 
             &:hover img {
-                transform: scale(1.1); 
+                transform: scale(1.1);
             }
 
             &.span-2-row {
@@ -776,6 +776,7 @@ footer {
                 align-items: center;
                 padding: 2rem;
                 gap: 2rem;
+                background: linear-gradient(180deg, var(--main-blue) 0%, var(--main-white) 100%);
 
                 .profile-left {
                     width: 100%;
@@ -817,7 +818,7 @@ footer {
                 grid-row: span 1;
                 grid-column: 1;
             }
-            
+
             .gallery-img-box.span-2-row {
                 grid-row: span 1;
                 grid-column: 1;
@@ -867,9 +868,10 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .hero{
+    .hero {
         height: 50vh;
-        .hero-title{
+
+        .hero-title {
             padding-top: 75%;
             padding-left: 0;
             text-align: center;
