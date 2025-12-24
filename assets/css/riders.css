@@ -870,8 +870,8 @@ footer {
 
     .gallery-section {
 
-
         .mosaic-container {
+            padding: 0 1rem;
 
             .mosaic-title {
                 margin: -4rem 0 2rem 0;
